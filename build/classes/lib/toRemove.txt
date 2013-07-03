@@ -1,2 +1,0 @@
-struts-1.2.9.jar
-SL-DEV.jar
