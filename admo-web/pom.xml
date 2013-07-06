@@ -8,10 +8,20 @@
 	<name>admo-web Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<properties>
-		<spring.version>3.0.5.RELEASE</spring.version>
+		<spring.version>3.1.0.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<jdk.version>1.6</jdk.version>
 	</properties>
+	<build>
+		<finalName>admo-web</finalName>
+		<plugins>
+			<plugin>
+			  <groupId>org.apache.maven.plugins</groupId>
+			  <artifactId>maven-war-plugin</artifactId>
+			  <version>2.2</version>
+			</plugin>
+		</plugins>
+	</build>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -98,6 +108,23 @@
 			<groupId>hibernate</groupId>
 			<artifactId>hibernate</artifactId>
 			<version>3.0</version>
+			<exclusions>
+				<exclusion>
+					<groupId>javax.security</groupId>
+					<artifactId>jacc</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>hibernate</groupId>
+			<artifactId>hibernate-annotations</artifactId>
+			<version>3.1beta4</version>
+			<exclusions>
+				<exclusion>
+					<groupId>javax.persistence</groupId>
+					<artifactId>ejb</artifactId>
+				</exclusion>
+			</exclusions>			
 		</dependency>
 		<dependency>
 			<groupId>javassist</groupId>
@@ -294,7 +321,4 @@
 			<version>2.2.2</version>
 		</dependency>
 	</dependencies>
-	<build>
-		<finalName>admo-web</finalName>
-	</build>
 </project>

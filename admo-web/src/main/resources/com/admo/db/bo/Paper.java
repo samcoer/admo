@@ -36,7 +36,7 @@ public class Paper {
 
 	@OneToMany(mappedBy = "paper", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
 	@OrderBy("name")
-	@Cache(usage = CacheConcurrencyStrategy.READ_WRITE, include = "all")
+	@Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
 	public List<Subject> getSubjects() {
 
 		return subjects;

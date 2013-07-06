@@ -51,7 +51,7 @@ public class Examination {
 
 	@OneToMany(mappedBy = "exam", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
 	@OrderBy("name")
-	@Cache(usage = CacheConcurrencyStrategy.READ_WRITE, include = "all")
+	@Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
 	public List<Paper> getPapers() {
 
 		return papers;
