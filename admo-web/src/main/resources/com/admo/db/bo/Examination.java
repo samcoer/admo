@@ -17,6 +17,8 @@ import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 import org.hibernate.annotations.Index;
 
+import com.admo.db.bo.sample.Paper;
+
 @Entity
 @Table(name = "EXAMINATION")
 @Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
