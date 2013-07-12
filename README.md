@@ -13,7 +13,7 @@ General Setup Guidelines:
 ```
 git clone git@github.com:samcoer/admo.git
 ```
-If the above doesnt work try git clone https://github.com/samcoer/admo.git
+If the above doesnt work try ```git clone https://github.com/samcoer/admo.git```
 6. Copy settings.xml from {REPO_HOME} to {MVN_HOME}/conf
 7. Get Eclipse and install m2eclipse plugin as desribed at http://eclipse.org/m2e/download/ 
 8. Import project into eclipse by following import->existing maven project
