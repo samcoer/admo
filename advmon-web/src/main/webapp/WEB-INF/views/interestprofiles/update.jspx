@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_advmon_webapp_datamodel_profiles_InterestProfile" modelAttribute="interestProfile" path="/interestprofiles" versionField="Version" z="0HBj6E89rjZ79CNFMTG9mzxnpXw=">
+        <field:input field="interests" id="c_com_advmon_webapp_datamodel_profiles_InterestProfile_interests" z="bLjclCLZt5pUG6Y/iGFCgdNBSvE="/>
+        <field:select field="endUserList" id="c_com_advmon_webapp_datamodel_profiles_InterestProfile_endUserList" itemValue="id" items="${endusers}" multiple="true" path="/endusers" z="2xqZjO9WC8SWDKnLm/2GEr/Xo3g="/>
+        <field:select field="mktProfileHistory" id="c_com_advmon_webapp_datamodel_profiles_InterestProfile_mktProfileHistory" itemValue="id" items="${marketprofilehistorys}" multiple="true" path="/marketprofilehistorys" z="2dq0x8cI83fY+LRW7wOSSgG+2Tw="/>
+        <field:input field="name" id="c_com_advmon_webapp_datamodel_profiles_InterestProfile_name" z="m/IoUCuWr9UM707oMgqbrgMXAuU="/>
+        <field:input field="description" id="c_com_advmon_webapp_datamodel_profiles_InterestProfile_description" z="bjjGLDqTBL1ZchyY6Q8iToIj39I="/>
+        <field:select field="mktProfiles" id="c_com_advmon_webapp_datamodel_profiles_InterestProfile_mktProfiles" itemValue="id" items="${targetmarketprofiles}" multiple="true" path="/targetmarketprofiles" z="CHuuH0esQ4RD2SDcsgTnNGFk8Jk="/>
+    </form:update>
+</div>

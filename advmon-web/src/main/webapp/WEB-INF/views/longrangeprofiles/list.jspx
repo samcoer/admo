@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_advmon_webapp_datamodel_profiles_LongRangeProfile" items="${longrangeprofiles}" z="tWjLBsaLMADLQxTA6f8SGquMFek=">
+        <table:table data="${longrangeprofiles}" id="l_com_advmon_webapp_datamodel_profiles_LongRangeProfile" path="/longrangeprofiles" z="1L+OWFAHjTOmQjymMsGWIL/jA0g=">
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_LongRangeProfile_name" property="name" z="G5ASLmuDEKnEO8FTHRtxJTMDmKU="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_LongRangeProfile_description" property="description" z="9uI1ycYCVyR/Yg9Gz3iLVPCJPYY="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_LongRangeProfile_mktProfiles" property="mktProfiles" z="rc9rG2fhcDqLW8WMUzN1WnuRyFw="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_LongRangeProfile_endUserList" property="endUserList" z="7iFLlBj/xL5NDZJXsAPsJQ4bMAo="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_LongRangeProfile_mktProfileHistory" property="mktProfileHistory" z="s1HhzzqIG/zfLajMoBBtLV5HBFY="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_LongRangeProfile_ranges" property="ranges" z="wB9P6HZegXnRBxDzZot6qjvNNzY="/>
+        </table:table>
+    </page:list>
+</div>

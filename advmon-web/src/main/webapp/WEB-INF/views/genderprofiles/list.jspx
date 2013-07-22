@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_advmon_webapp_datamodel_profiles_GenderProfile" items="${genderprofiles}" z="v6ZbMw6/HfeUTtIP/8WnCeSE8x0=">
+        <table:table data="${genderprofiles}" id="l_com_advmon_webapp_datamodel_profiles_GenderProfile" path="/genderprofiles" z="cgtdeTLc/tgXjJBBzwp3JdtCok0=">
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_GenderProfile_gender" property="gender" z="w5q+bZcYqarvOBk9BFVSFsw80qc="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_GenderProfile_endUserList" property="endUserList" z="9+X8Da4ARr3S7sqqUSelAphu0Rw="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_GenderProfile_mktProfileHistory" property="mktProfileHistory" z="DetMQUh3+8FJ6l7jTePAtlQvEoU="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_GenderProfile_name" property="name" z="/oNGQnqsDlcoq6n11rDYLZ8NzEg="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_GenderProfile_description" property="description" z="T7yclyVjY6BxV6AZlqwUpdcyvNs="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_GenderProfile_mktProfiles" property="mktProfiles" z="nuxLvGUEyb42f7ZFCqs6Xbklzos="/>
+        </table:table>
+    </page:list>
+</div>

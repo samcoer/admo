@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_advmon_webapp_datamodel_profiles_Profile" items="${profiles}" z="5w1nXtTNUjxJ0Hixe23vYKLD1zk=">
+        <table:table data="${profiles}" id="l_com_advmon_webapp_datamodel_profiles_Profile" path="/profiles" z="Q1Gxv97TdobfmDzUMeOmrufvwho=">
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_Profile_endUserList" property="endUserList" z="NUDqd/kkYMWOLtTWixbyYvoMOaE="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_Profile_mktProfileHistory" property="mktProfileHistory" z="jXOLQKEEySDx4mTDdVrgyJgKWuI="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_Profile_name" property="name" z="l4+idBqcYj1dAZYP9L0ejfP5iww="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_Profile_description" property="description" z="OScUgpnc7FlS17YND0lx0gFyIJ8="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_Profile_mktProfiles" property="mktProfiles" z="Gb/MP0SPux6i+dPT9vgqqnaW7Yc="/>
+        </table:table>
+    </page:list>
+</div>

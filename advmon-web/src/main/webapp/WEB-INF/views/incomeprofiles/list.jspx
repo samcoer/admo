@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_advmon_webapp_datamodel_profiles_IncomeProfile" items="${incomeprofiles}" z="OsGwGkpPC1CWk+0dG9E3AeoTr5U=">
+        <table:table data="${incomeprofiles}" id="l_com_advmon_webapp_datamodel_profiles_IncomeProfile" path="/incomeprofiles" z="PPj/hwf+kHvwMgURRG8LCsWYHg4=">
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_IncomeProfile_endUserList" property="endUserList" z="+iCPMf2nrRSoKdEQPNCGocHsEJ4="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_IncomeProfile_mktProfileHistory" property="mktProfileHistory" z="D6TQOrouyOewRG4umrex890iNLU="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_IncomeProfile_name" property="name" z="5rmrrz1mVQ2k9hX5SWMYiSYZ7XQ="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_IncomeProfile_description" property="description" z="j+5cB2jtC4I3uGc7J4jWwjQLeZ0="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_IncomeProfile_mktProfiles" property="mktProfiles" z="WGOj3UvJvVl4Y4AnI4IPKHfYQ2M="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_IncomeProfile_ranges" property="ranges" z="dv7k8UtDoenCi9hmV4fzNmT+gps="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_advmon_webapp_datamodel_profiles_IncomeProfile" modelAttribute="incomeProfile" path="/incomeprofiles" versionField="Version" z="FEuIce3kzfFnzHbOeHEVzbciB8w=">
+        <field:select field="endUserList" id="c_com_advmon_webapp_datamodel_profiles_IncomeProfile_endUserList" itemValue="id" items="${endusers}" multiple="true" path="/endusers" z="MwoOCRMSAXhPU+TFjudRfPgEAxc="/>
+        <field:select field="mktProfileHistory" id="c_com_advmon_webapp_datamodel_profiles_IncomeProfile_mktProfileHistory" itemValue="id" items="${marketprofilehistorys}" multiple="true" path="/marketprofilehistorys" z="cT6X3ujmuGRWfU8U3VqK8EzJw+A="/>
+        <field:input field="name" id="c_com_advmon_webapp_datamodel_profiles_IncomeProfile_name" z="B0yDnrHghCHjn35xgxG494jAx4g="/>
+        <field:input field="description" id="c_com_advmon_webapp_datamodel_profiles_IncomeProfile_description" z="izxxH1k4jN9Elu/kMOnQhZM46MU="/>
+        <field:select field="mktProfiles" id="c_com_advmon_webapp_datamodel_profiles_IncomeProfile_mktProfiles" itemValue="id" items="${targetmarketprofiles}" multiple="true" path="/targetmarketprofiles" z="1Ju40OTrfOx/ezGjGSwOYXOu+UM="/>
+        <field:select field="ranges" id="c_com_advmon_webapp_datamodel_profiles_IncomeProfile_ranges" itemValue="id" items="${longranges}" multiple="true" path="/longranges" z="7dSTd4ud2Nw1aA8CY92Cul78Nzc="/>
+    </form:update>
+</div>

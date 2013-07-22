@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_advmon_webapp_datamodel_profiles_LocationProfile" items="${locationprofiles}" z="GN/xTfGrJdvX2WrRWbYdkA3rsn8=">
+        <table:table data="${locationprofiles}" id="l_com_advmon_webapp_datamodel_profiles_LocationProfile" path="/locationprofiles" z="JrKLlk+T0So4QrDb40M8SENkVxg=">
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_LocationProfile_country" property="country" z="JrMsjwimUAES/ols89vv3hrR6Gg="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_LocationProfile_endUserList" property="endUserList" z="H2y30BwKJbhB2HrfS4kdpcZsXHo="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_LocationProfile_mktProfileHistory" property="mktProfileHistory" z="k/ZrbjoqaZCSDOORLDPT81PTtT4="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_LocationProfile_name" property="name" z="qm+WATqRm5qVAB3ZtlEbC/bhoH0="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_LocationProfile_description" property="description" z="1D2UE+Y2kxleH0uYxWTTSIiYwF8="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_LocationProfile_mktProfiles" property="mktProfiles" z="G6g+u7sCGZPVhZMIybgpNHqSFzM="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_advmon_webapp_datamodel_etc_IntRange" items="${intranges}" z="2iIfx9XB4cUu1ci/9WNYl55TZw0=">
+        <table:table data="${intranges}" id="l_com_advmon_webapp_datamodel_etc_IntRange" path="/intranges" z="+ooqiXC4NmYvW8mLfO7fCqAr1Pc=">
+            <table:column id="c_com_advmon_webapp_datamodel_etc_IntRange_min" property="min" z="AvFMiPJWSSH5nez8c8HcBaFHP/Y="/>
+            <table:column id="c_com_advmon_webapp_datamodel_etc_IntRange_max" property="max" z="XzeHT7/kAiJVlYYDLKhLTXH0E9w="/>
+            <table:column id="c_com_advmon_webapp_datamodel_etc_IntRange_name" property="name" z="RfabRQ/YNaJNKtsFOh6XcckMlOQ="/>
+            <table:column id="c_com_advmon_webapp_datamodel_etc_IntRange_description" property="description" z="/9peRr53v7E8atMi9da0ozPowGI="/>
+            <table:column id="c_com_advmon_webapp_datamodel_etc_IntRange_profiles" property="profiles" z="0wYc9wVG4xyGnQrHWmquIcHXbzA="/>
+        </table:table>
+    </page:list>
+</div>

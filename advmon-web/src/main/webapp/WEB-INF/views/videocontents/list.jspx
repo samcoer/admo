@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_advmon_webapp_datamodel_content_VideoContent" items="${videocontents}" z="QdU9XdNDEyAdpLJ2Q2K5bGO2RXc=">
+        <table:table data="${videocontents}" id="l_com_advmon_webapp_datamodel_content_VideoContent" path="/videocontents" z="iPvWHtUtlO9G6OywtHqfCJsoTqs=">
+            <table:column id="c_com_advmon_webapp_datamodel_content_VideoContent_advertisement" property="advertisement" z="z6GxycCUIAh03T+2NExxTMlQyEQ="/>
+            <table:column id="c_com_advmon_webapp_datamodel_content_VideoContent_text" property="text" z="WBGX6MrqdGkRIpUA3GNENvymlvk="/>
+            <table:column id="c_com_advmon_webapp_datamodel_content_VideoContent_youTubeURL" property="youTubeURL" z="IlGl1NA5DFSI8kqdVmh/8UMBQvo="/>
+        </table:table>
+    </page:list>
+</div>

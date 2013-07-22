@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_advmon_webapp_datamodel_AdCategory" items="${adcategorys}" z="5g1xHUl5M5PLl6cKQqVh1cFnhPk=">
+        <table:table data="${adcategorys}" id="l_com_advmon_webapp_datamodel_AdCategory" path="/adcategorys" z="lMq3UJJsVxTimgOYv/NokSdDq3M=">
+            <table:column id="c_com_advmon_webapp_datamodel_AdCategory_name" property="name" z="/y9StAQ/mfO6nlI5YKX6wMJRxa8="/>
+            <table:column id="c_com_advmon_webapp_datamodel_AdCategory_tags" property="tags" z="w0sqf68amT/lqjkthl7y+d3gT+Q="/>
+            <table:column id="c_com_advmon_webapp_datamodel_AdCategory_ads" property="ads" z="hfjL1hfsVNKVJ/tbb0vGdlNqMMA="/>
+            <table:column id="c_com_advmon_webapp_datamodel_AdCategory_description" property="description" z="V5XJTng0PEX8bj66lK/OSQMDHV0="/>
+        </table:table>
+    </page:list>
+</div>

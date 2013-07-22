@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_advmon_webapp_datamodel_profiles_LanguageProfile" object="${languageprofile}" path="/languageprofiles" z="CPA4yos/cGUgVyPn3uMrIuji4Ds=">
+        <field:display field="languages" id="s_com_advmon_webapp_datamodel_profiles_LanguageProfile_languages" object="${languageprofile}" z="WxSc4urhE9QwgFBuDfP6ZbOM3no="/>
+        <field:display field="endUserList" id="s_com_advmon_webapp_datamodel_profiles_LanguageProfile_endUserList" object="${languageprofile}" z="2WQ3rC8GFXotIDRWQynNxwhJ2xY="/>
+        <field:display field="mktProfileHistory" id="s_com_advmon_webapp_datamodel_profiles_LanguageProfile_mktProfileHistory" object="${languageprofile}" z="2crfuDodPwmmGpENfvay3BU4oG0="/>
+        <field:display field="name" id="s_com_advmon_webapp_datamodel_profiles_LanguageProfile_name" object="${languageprofile}" z="hBRJltKAYUGem8v6E0987xZU2bE="/>
+        <field:display field="description" id="s_com_advmon_webapp_datamodel_profiles_LanguageProfile_description" object="${languageprofile}" z="ghjHDGjdZesDTIZ5WnEtdUMB8B4="/>
+        <field:display field="mktProfiles" id="s_com_advmon_webapp_datamodel_profiles_LanguageProfile_mktProfiles" object="${languageprofile}" z="m7/ceeSAENAr3/A1K5VsXZEkTVg="/>
+    </page:show>
+</div>

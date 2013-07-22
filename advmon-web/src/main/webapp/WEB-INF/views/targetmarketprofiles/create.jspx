@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_advmon_webapp_datamodel_TargetMarketProfile" modelAttribute="targetMarketProfile" path="/targetmarketprofiles" render="${empty dependencies}" z="J2LlXxcZB17BhdsuDp1URHmcjAw=">
+        <field:input field="segmentName" id="c_com_advmon_webapp_datamodel_TargetMarketProfile_segmentName" z="h7PBOoq2O9xDU0FbMlAClyBOFtM="/>
+        <field:select field="profiles" id="c_com_advmon_webapp_datamodel_TargetMarketProfile_profiles" itemValue="id" items="${profiles}" multiple="true" path="/profiles" z="KRxBIWNQwyjpgwv3Sk9Of4zbUP8="/>
+        <field:select field="advertisement" id="c_com_advmon_webapp_datamodel_TargetMarketProfile_advertisement" itemValue="id" items="${advertisements}" multiple="true" path="/advertisements" z="wXSu/PO9BoEctKLP9WdtiHc5nYA="/>
+        <field:input field="description" id="c_com_advmon_webapp_datamodel_TargetMarketProfile_description" z="+cl3Tkm/wG2K/9pe32+wkXB/dOk="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_advmon_webapp_datamodel_TargetMarketProfile" render="${not empty dependencies}" z="Y4nbAkCqzBsGT+xArukCG+5mhsM="/>
+</div>

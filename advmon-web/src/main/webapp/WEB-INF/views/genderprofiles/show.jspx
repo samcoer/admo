@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_advmon_webapp_datamodel_profiles_GenderProfile" object="${genderprofile}" path="/genderprofiles" z="gBnrOOoOg6rS3646rBct5L7N51w=">
+        <field:display field="gender" id="s_com_advmon_webapp_datamodel_profiles_GenderProfile_gender" object="${genderprofile}" z="OpxKGUN0yyPGN4VtAsFsi+rrlTY="/>
+        <field:display field="endUserList" id="s_com_advmon_webapp_datamodel_profiles_GenderProfile_endUserList" object="${genderprofile}" z="4bjlSbgoxMKeD6iinFZqMB2suUc="/>
+        <field:display field="mktProfileHistory" id="s_com_advmon_webapp_datamodel_profiles_GenderProfile_mktProfileHistory" object="${genderprofile}" z="ssh6Zny//GSwaFANGtQiJEjRsMQ="/>
+        <field:display field="name" id="s_com_advmon_webapp_datamodel_profiles_GenderProfile_name" object="${genderprofile}" z="cHsWNJiY8wgfK2pWp9SMxQaMEuk="/>
+        <field:display field="description" id="s_com_advmon_webapp_datamodel_profiles_GenderProfile_description" object="${genderprofile}" z="Ktzl0ISUe80KuCi8t5vd8/lDybg="/>
+        <field:display field="mktProfiles" id="s_com_advmon_webapp_datamodel_profiles_GenderProfile_mktProfiles" object="${genderprofile}" z="OhrHxbFnePMB4GTSMob+rhjXVas="/>
+    </page:show>
+</div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_advmon_webapp_datamodel_TargetMarketProfile" items="${targetmarketprofiles}" z="hitUHd13v8YjcCJqCwKxZeZ3Us8=">
+        <table:table data="${targetmarketprofiles}" id="l_com_advmon_webapp_datamodel_TargetMarketProfile" path="/targetmarketprofiles" z="kB1oluWQhuPY8GF+dWIabUMn4Yg=">
+            <table:column id="c_com_advmon_webapp_datamodel_TargetMarketProfile_segmentName" property="segmentName" z="cqHfYYht5rB4P17dYmqSt2y0vFw="/>
+            <table:column id="c_com_advmon_webapp_datamodel_TargetMarketProfile_advertisement" property="advertisement" z="TktLpEOzT2uN45cJLkWBToeWa/Y="/>
+            <table:column id="c_com_advmon_webapp_datamodel_TargetMarketProfile_profiles" property="profiles" z="O1a4Jne2o5uEVTBS1siYFEPx5Ow="/>
+            <table:column id="c_com_advmon_webapp_datamodel_TargetMarketProfile_description" property="description" z="B8X+zNHgAH3++cONF6cBf/8ABGs="/>
+        </table:table>
+    </page:list>
+</div>

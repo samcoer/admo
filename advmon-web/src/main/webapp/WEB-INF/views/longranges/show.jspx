@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_advmon_webapp_datamodel_etc_LongRange" object="${longrange}" path="/longranges" z="OyERuZ5gFFSoglschdV7y0e0axk=">
+        <field:display field="min" id="s_com_advmon_webapp_datamodel_etc_LongRange_min" object="${longrange}" z="upEintnG16J6SpsFUvBfCbUAx/U="/>
+        <field:display field="max" id="s_com_advmon_webapp_datamodel_etc_LongRange_max" object="${longrange}" z="JrvSHv4Wy1y/oLBmiLa4SEI8MH8="/>
+        <field:display field="name" id="s_com_advmon_webapp_datamodel_etc_LongRange_name" object="${longrange}" z="5rWvuIXPnw+2kKmL3r0p7GxYsts="/>
+        <field:display field="description" id="s_com_advmon_webapp_datamodel_etc_LongRange_description" object="${longrange}" z="9k+oOg4foZWVK01iGSnmmEl6HZQ="/>
+        <field:display field="profiles" id="s_com_advmon_webapp_datamodel_etc_LongRange_profiles" object="${longrange}" z="PKjgxn8+HFjCMVS8qAM0z9gMc1U="/>
+    </page:show>
+</div>

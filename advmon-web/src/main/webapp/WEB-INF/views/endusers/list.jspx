@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_advmon_webapp_datamodel_EndUser" items="${endusers}" z="kOiNmcd+qWTnrmHuNoGNZdD1ghs=">
+        <table:table data="${endusers}" id="l_com_advmon_webapp_datamodel_EndUser" path="/endusers" z="bsHClQ8Q9497qxQky200tBACuks=">
+            <table:column id="c_com_advmon_webapp_datamodel_EndUser_currentProfile" property="currentProfile" z="naH40SvWY1dnL+KRtFRl25/ZZfg="/>
+            <table:column id="c_com_advmon_webapp_datamodel_EndUser_servedAds" property="servedAds" z="a1VnTCfi0eOpUljDT8JGzoI0KVY="/>
+            <table:column id="c_com_advmon_webapp_datamodel_EndUser_emailId" property="emailId" z="lElnr7idlGXwRfNzgheXmg/9P94="/>
+            <table:column id="c_com_advmon_webapp_datamodel_EndUser_name" property="name" z="3kQMU4/d+Oq4sbEOdZsVwAN7fgY="/>
+            <table:column id="c_com_advmon_webapp_datamodel_EndUser_password" property="password" z="EJKf29ODD2H1Z5V7v5/SFc1L3dc="/>
+        </table:table>
+    </page:list>
+</div>

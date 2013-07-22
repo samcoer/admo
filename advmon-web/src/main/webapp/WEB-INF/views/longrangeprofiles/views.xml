@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="longrangeprofiles/list">
+        <put-attribute name="body" value="/WEB-INF/views/longrangeprofiles/list.jspx"/>
+    </definition>
+<definition extends="default" name="longrangeprofiles/show">
+        <put-attribute name="body" value="/WEB-INF/views/longrangeprofiles/show.jspx"/>
+    </definition>
+<definition extends="default" name="longrangeprofiles/create">
+        <put-attribute name="body" value="/WEB-INF/views/longrangeprofiles/create.jspx"/>
+    </definition>
+<definition extends="default" name="longrangeprofiles/update">
+        <put-attribute name="body" value="/WEB-INF/views/longrangeprofiles/update.jspx"/>
+    </definition>
+</tiles-definitions>

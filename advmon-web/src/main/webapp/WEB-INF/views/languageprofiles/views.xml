@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="languageprofiles/list">
+        <put-attribute name="body" value="/WEB-INF/views/languageprofiles/list.jspx"/>
+    </definition>
+<definition extends="default" name="languageprofiles/show">
+        <put-attribute name="body" value="/WEB-INF/views/languageprofiles/show.jspx"/>
+    </definition>
+<definition extends="default" name="languageprofiles/create">
+        <put-attribute name="body" value="/WEB-INF/views/languageprofiles/create.jspx"/>
+    </definition>
+<definition extends="default" name="languageprofiles/update">
+        <put-attribute name="body" value="/WEB-INF/views/languageprofiles/update.jspx"/>
+    </definition>
+</tiles-definitions>

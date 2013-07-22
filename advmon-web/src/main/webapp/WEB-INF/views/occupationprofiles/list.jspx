@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_advmon_webapp_datamodel_profiles_OccupationProfile" items="${occupationprofiles}" z="7XhOzcinhsRLW4HsELqj0jU8cRA=">
+        <table:table data="${occupationprofiles}" id="l_com_advmon_webapp_datamodel_profiles_OccupationProfile" path="/occupationprofiles" z="ZRG1W3f9l8HF35pqr2Ypbpm9aHs=">
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_OccupationProfile_occupations" property="occupations" z="AEfuF2w38ddZM52+ktBJ4mNus0Y="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_OccupationProfile_endUserList" property="endUserList" z="YREzJlHo2jYSPFGePpX0VsKyT1c="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_OccupationProfile_mktProfileHistory" property="mktProfileHistory" z="wat2CfCPutg4eehMg1Xg6AIM0Fc="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_OccupationProfile_name" property="name" z="KR0AAb/QNuq+RtJx0Uh8Rq7rHH4="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_OccupationProfile_description" property="description" z="Ss10QZR2Db+BE49chhaLXmpPeTM="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_OccupationProfile_mktProfiles" property="mktProfiles" z="C+UPyOD+8gwYCdRx8u+AiHsMPtA="/>
+        </table:table>
+    </page:list>
+</div>

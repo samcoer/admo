@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_advmon_webapp_datamodel_content_AudioContent" object="${audiocontent}" path="/audiocontents" z="kXTqo/gBHh6hCJiyPAu9kkxThjk=">
+        <field:display field="advertisement" id="s_com_advmon_webapp_datamodel_content_AudioContent_advertisement" object="${audiocontent}" z="qie1Wd8LrtwQ+N5YY/s/SRKVkQ4="/>
+        <field:display field="text" id="s_com_advmon_webapp_datamodel_content_AudioContent_text" object="${audiocontent}" z="Ue7UDkvspgC11ajr7Qib6j/ByvM="/>
+        <field:display field="audioURL" id="s_com_advmon_webapp_datamodel_content_AudioContent_audioURL" object="${audiocontent}" z="YoVIzgEG542zJSBvrvumRxY8m9s="/>
+    </page:show>
+</div>

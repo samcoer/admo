@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="genderprofiles/list">
+        <put-attribute name="body" value="/WEB-INF/views/genderprofiles/list.jspx"/>
+    </definition>
+<definition extends="default" name="genderprofiles/show">
+        <put-attribute name="body" value="/WEB-INF/views/genderprofiles/show.jspx"/>
+    </definition>
+<definition extends="default" name="genderprofiles/create">
+        <put-attribute name="body" value="/WEB-INF/views/genderprofiles/create.jspx"/>
+    </definition>
+<definition extends="default" name="genderprofiles/update">
+        <put-attribute name="body" value="/WEB-INF/views/genderprofiles/update.jspx"/>
+    </definition>
+</tiles-definitions>

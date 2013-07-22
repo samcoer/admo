@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_advmon_webapp_datamodel_profiles_IntRangeProfile" object="${intrangeprofile}" path="/intrangeprofiles" z="jg9PfIt3e3+k4eHTLEpI4dTF/pY=">
+        <field:display field="name" id="s_com_advmon_webapp_datamodel_profiles_IntRangeProfile_name" object="${intrangeprofile}" z="zgqNFkwWdVKwpiDvqt0+t0xMZSE="/>
+        <field:display field="description" id="s_com_advmon_webapp_datamodel_profiles_IntRangeProfile_description" object="${intrangeprofile}" z="tiUAIjSnlzfL6+BYUPmlnj5vk5U="/>
+        <field:display field="mktProfiles" id="s_com_advmon_webapp_datamodel_profiles_IntRangeProfile_mktProfiles" object="${intrangeprofile}" z="BHRYO66dThnHTzVxjB7QgsUwtJc="/>
+        <field:display field="endUserList" id="s_com_advmon_webapp_datamodel_profiles_IntRangeProfile_endUserList" object="${intrangeprofile}" z="FoR+hAYrSwLZE+2JmlsNsWC04yk="/>
+        <field:display field="mktProfileHistory" id="s_com_advmon_webapp_datamodel_profiles_IntRangeProfile_mktProfileHistory" object="${intrangeprofile}" z="V/4dj9F1cozU+g8HlWCV8fhuODw="/>
+        <field:display field="ranges" id="s_com_advmon_webapp_datamodel_profiles_IntRangeProfile_ranges" object="${intrangeprofile}" z="/WUAebrK/N+4jeJMArZR+O9L+Y0="/>
+    </page:show>
+</div>

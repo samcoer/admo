@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_advmon_webapp_datamodel_profiles_TagProfile" object="${tagprofile}" path="/tagprofiles" z="OwvLg632V8Mm0ZgxX0nvw0mZ6is=">
+        <field:display field="endUserList" id="s_com_advmon_webapp_datamodel_profiles_TagProfile_endUserList" object="${tagprofile}" z="nJpusIvEsB9Fc7J30ra+w55XlUc="/>
+        <field:display field="mktProfileHistory" id="s_com_advmon_webapp_datamodel_profiles_TagProfile_mktProfileHistory" object="${tagprofile}" z="YsRHuGfMWlEJ4tLIouciKTvUUYQ="/>
+        <field:display field="name" id="s_com_advmon_webapp_datamodel_profiles_TagProfile_name" object="${tagprofile}" z="NuvrKwyw3xteP7qxyq+aFa+/9C8="/>
+        <field:display field="description" id="s_com_advmon_webapp_datamodel_profiles_TagProfile_description" object="${tagprofile}" z="dSpkDM0FXlgYNpLdtlqpIuzI/90="/>
+        <field:display field="mktProfiles" id="s_com_advmon_webapp_datamodel_profiles_TagProfile_mktProfiles" object="${tagprofile}" z="3Z52jiIN3Vf1z3nMrK+t28KgefY="/>
+    </page:show>
+</div>

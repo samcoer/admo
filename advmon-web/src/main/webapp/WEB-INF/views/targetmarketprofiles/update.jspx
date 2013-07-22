@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_advmon_webapp_datamodel_TargetMarketProfile" modelAttribute="targetMarketProfile" path="/targetmarketprofiles" versionField="Version" z="v9V1X+A4vu3RHmQSUUtk+7A4CCg=">
+        <field:input field="segmentName" id="c_com_advmon_webapp_datamodel_TargetMarketProfile_segmentName" z="h7PBOoq2O9xDU0FbMlAClyBOFtM="/>
+        <field:select field="profiles" id="c_com_advmon_webapp_datamodel_TargetMarketProfile_profiles" itemValue="id" items="${profiles}" multiple="true" path="/profiles" z="KRxBIWNQwyjpgwv3Sk9Of4zbUP8="/>
+        <field:select field="advertisement" id="c_com_advmon_webapp_datamodel_TargetMarketProfile_advertisement" itemValue="id" items="${advertisements}" multiple="true" path="/advertisements" z="wXSu/PO9BoEctKLP9WdtiHc5nYA="/>
+        <field:input field="description" id="c_com_advmon_webapp_datamodel_TargetMarketProfile_description" z="+cl3Tkm/wG2K/9pe32+wkXB/dOk="/>
+    </form:update>
+</div>

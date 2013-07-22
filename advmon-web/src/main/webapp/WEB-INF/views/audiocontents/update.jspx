@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_advmon_webapp_datamodel_content_AudioContent" modelAttribute="audioContent" path="/audiocontents" versionField="Version" z="IYXoScbju/00/i+6BHlmE9XU5QM=">
+        <field:select field="advertisement" id="c_com_advmon_webapp_datamodel_content_AudioContent_advertisement" itemValue="id" items="${advertisements}" path="/advertisements" z="VWv4+0GocqzdXa0OuScfMlvObbo="/>
+        <field:input field="text" id="c_com_advmon_webapp_datamodel_content_AudioContent_text" z="hhox3BGoK+G5heY85WOcELaSzSI="/>
+        <field:input field="audioURL" id="c_com_advmon_webapp_datamodel_content_AudioContent_audioURL" z="fYm9C5BMKFQqj4JCjGROweLQXz8="/>
+    </form:update>
+</div>

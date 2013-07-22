@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_advmon_webapp_datamodel_profiles_EducationProfile" object="${educationprofile}" path="/educationprofiles" z="/dok8Paz7mL3INzoVn+12JgOciY=">
+        <field:display field="educationList" id="s_com_advmon_webapp_datamodel_profiles_EducationProfile_educationList" object="${educationprofile}" z="htnjNHUzN2WnNOfe/kUWEBfhuQI="/>
+        <field:display field="endUserList" id="s_com_advmon_webapp_datamodel_profiles_EducationProfile_endUserList" object="${educationprofile}" z="aTaU+HrN4fZIRV/W/SdXeN6+bCk="/>
+        <field:display field="mktProfileHistory" id="s_com_advmon_webapp_datamodel_profiles_EducationProfile_mktProfileHistory" object="${educationprofile}" z="kA+xagPVS61Z4rc+juwm+VcPRBs="/>
+        <field:display field="name" id="s_com_advmon_webapp_datamodel_profiles_EducationProfile_name" object="${educationprofile}" z="YKCZeUx8WVY6JmRjtpAWoYPlj+A="/>
+        <field:display field="description" id="s_com_advmon_webapp_datamodel_profiles_EducationProfile_description" object="${educationprofile}" z="ro05EXZh4Jr5Oq03Eih3qZWdR/I="/>
+        <field:display field="mktProfiles" id="s_com_advmon_webapp_datamodel_profiles_EducationProfile_mktProfiles" object="${educationprofile}" z="iwYdKK/yEXPVIbH5mxM0v2Ym1eg="/>
+    </page:show>
+</div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_advmon_webapp_datamodel_profiles_LongRangeProfile" object="${longrangeprofile}" path="/longrangeprofiles" z="zrrwuDv3gM5pfv+fK6FriK/n5PA=">
+        <field:display field="name" id="s_com_advmon_webapp_datamodel_profiles_LongRangeProfile_name" object="${longrangeprofile}" z="g0SVLxVuopqbaBofq0E6WitZNOg="/>
+        <field:display field="description" id="s_com_advmon_webapp_datamodel_profiles_LongRangeProfile_description" object="${longrangeprofile}" z="uw53891Ro8UcAFHfXPepuO1PHE4="/>
+        <field:display field="mktProfiles" id="s_com_advmon_webapp_datamodel_profiles_LongRangeProfile_mktProfiles" object="${longrangeprofile}" z="uaJ9qP02Oku6m2radUvXLop3eKo="/>
+        <field:display field="endUserList" id="s_com_advmon_webapp_datamodel_profiles_LongRangeProfile_endUserList" object="${longrangeprofile}" z="bhFHiaK4N2g8btS5lcgpRO6/TFM="/>
+        <field:display field="mktProfileHistory" id="s_com_advmon_webapp_datamodel_profiles_LongRangeProfile_mktProfileHistory" object="${longrangeprofile}" z="crRGKnsGvZ0OQ7tigutXiefQ0IE="/>
+        <field:display field="ranges" id="s_com_advmon_webapp_datamodel_profiles_LongRangeProfile_ranges" object="${longrangeprofile}" z="FlpGVmusfZ3WJ2pogUopJmiqZvg="/>
+    </page:show>
+</div>

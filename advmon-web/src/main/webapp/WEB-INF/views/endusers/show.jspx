@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_advmon_webapp_datamodel_EndUser" object="${enduser}" path="/endusers" z="pTEJLAekcNdoFaSej8+YDlEooCA=">
+        <field:display field="currentProfile" id="s_com_advmon_webapp_datamodel_EndUser_currentProfile" object="${enduser}" z="rEEgMzzb/FPvIWGNT37zH/RTtPg="/>
+        <field:display field="servedAds" id="s_com_advmon_webapp_datamodel_EndUser_servedAds" object="${enduser}" z="tNw8lYPaSTJgaC60CUNMSwb6LDw="/>
+        <field:display field="emailId" id="s_com_advmon_webapp_datamodel_EndUser_emailId" object="${enduser}" z="+XpD9FlNiK9jG9EhR2slvoUGw4s="/>
+        <field:display field="name" id="s_com_advmon_webapp_datamodel_EndUser_name" object="${enduser}" z="uOXM4jaU8JJ2D0+OogJKiIDbvYc="/>
+        <field:display field="paymentMultiplier" id="s_com_advmon_webapp_datamodel_EndUser_paymentMultiplier" object="${enduser}" z="NEor+0oEUjRlInkEj6+SW2uIZ+A="/>
+        <field:display field="password" id="s_com_advmon_webapp_datamodel_EndUser_password" object="${enduser}" z="tWZ3diwrEDHxKpCPBs0ouDXDNwE="/>
+    </page:show>
+</div>

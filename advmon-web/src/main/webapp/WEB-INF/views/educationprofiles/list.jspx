@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_advmon_webapp_datamodel_profiles_EducationProfile" items="${educationprofiles}" z="GYNrHfY8geX1Buu5We1F3QUT7nc=">
+        <table:table data="${educationprofiles}" id="l_com_advmon_webapp_datamodel_profiles_EducationProfile" path="/educationprofiles" z="iugNKjGvhWN8+a+1Hr1nWnWoirY=">
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_EducationProfile_educationList" property="educationList" z="dwom+6LGZvOvfOo8KpDs5a68P9k="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_EducationProfile_endUserList" property="endUserList" z="T+Hl4TGe/n7wqzrRRT49+DRGYqM="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_EducationProfile_mktProfileHistory" property="mktProfileHistory" z="sMtb1BmB/SCKS3+TfElkpq9K13Y="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_EducationProfile_name" property="name" z="2uSADfIYID3FltFvwY15EijZ99Q="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_EducationProfile_description" property="description" z="EX9E6+4wujxoQdQFnUKgdVwF6d0="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_EducationProfile_mktProfiles" property="mktProfiles" z="3vH5cMc5Q32l0fXwC2hBizfnksY="/>
+        </table:table>
+    </page:list>
+</div>

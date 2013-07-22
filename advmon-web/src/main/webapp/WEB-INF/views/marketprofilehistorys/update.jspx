@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_advmon_webapp_datamodel_MarketProfileHistory" modelAttribute="marketProfileHistory" path="/marketprofilehistorys" versionField="Version" z="zu8Ui0qZWCS2LfnMIywQkRGYABc=">
+        <field:select field="historicalProfile" id="c_com_advmon_webapp_datamodel_MarketProfileHistory_historicalProfile" itemValue="id" items="${profiles}" multiple="true" path="/profiles" z="v8IlVNK9T6oukzybvl1ie7F1Al4="/>
+        <field:select field="endUser" id="c_com_advmon_webapp_datamodel_MarketProfileHistory_endUser" itemValue="id" items="${endusers}" path="/endusers" z="HaylXRT2HqLd8SEJqwfI6Jg0Nos="/>
+        <field:input field="startTime" id="c_com_advmon_webapp_datamodel_MarketProfileHistory_startTime" validationMessageCode="field_invalid_integer" z="qnjDbo7kDLNGIIda4ziclDNX0p8="/>
+        <field:input field="endTime" id="c_com_advmon_webapp_datamodel_MarketProfileHistory_endTime" validationMessageCode="field_invalid_integer" z="xQlRbSpfT0wInvwE6AWwy8HFbuw="/>
+    </form:update>
+</div>

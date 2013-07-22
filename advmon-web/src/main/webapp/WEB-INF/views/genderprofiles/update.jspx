@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_advmon_webapp_datamodel_profiles_GenderProfile" modelAttribute="genderProfile" path="/genderprofiles" versionField="Version" z="N9dIUIgxx74ia88F3kBj8mCDnLg=">
+        <field:input field="gender" id="c_com_advmon_webapp_datamodel_profiles_GenderProfile_gender" z="+w4Oi9THFLQ1MwPvkT+eEXwDZX0="/>
+        <field:select field="endUserList" id="c_com_advmon_webapp_datamodel_profiles_GenderProfile_endUserList" itemValue="id" items="${endusers}" multiple="true" path="/endusers" z="yCnFRVnhAzi8jRsfXZ3IqEeRgxI="/>
+        <field:select field="mktProfileHistory" id="c_com_advmon_webapp_datamodel_profiles_GenderProfile_mktProfileHistory" itemValue="id" items="${marketprofilehistorys}" multiple="true" path="/marketprofilehistorys" z="ryrHgH3u1O7CTj4WxBm0SSX6HaM="/>
+        <field:input field="name" id="c_com_advmon_webapp_datamodel_profiles_GenderProfile_name" z="Nkanksy49StMiBf3EsPD0WzzpnM="/>
+        <field:input field="description" id="c_com_advmon_webapp_datamodel_profiles_GenderProfile_description" z="D7F082WA5m4+TVEWHGHk8nClHQ0="/>
+        <field:select field="mktProfiles" id="c_com_advmon_webapp_datamodel_profiles_GenderProfile_mktProfiles" itemValue="id" items="${targetmarketprofiles}" multiple="true" path="/targetmarketprofiles" z="EujkLDO4L2Wbr4MbhG/HxQvb/w4="/>
+    </form:update>
+</div>

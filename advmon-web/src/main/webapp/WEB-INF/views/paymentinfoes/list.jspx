@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_advmon_webapp_datamodel_PaymentInfo" items="${paymentinfoes}" z="cu9B4zIbQ0jO+m7mxYo4xcK59Gw=">
+        <table:table data="${paymentinfoes}" id="l_com_advmon_webapp_datamodel_PaymentInfo" path="/paymentinfoes" z="48MnZ9AvQ+LgzHchtAKFy/IZYgE=">
+            <table:column id="c_com_advmon_webapp_datamodel_PaymentInfo_advertisement" property="advertisement" z="3TGj8p7rTCjM2au2ft5W8iMTvmI="/>
+            <table:column id="c_com_advmon_webapp_datamodel_PaymentInfo_budget" property="budget" z="4XbBQYce8W2/4ciqeBn/u4u25Oc="/>
+            <table:column id="c_com_advmon_webapp_datamodel_PaymentInfo_isDifferential" property="isDifferential" z="epRNlmOeXcrM3XcNmCm8gvjXSjs="/>
+            <table:column id="c_com_advmon_webapp_datamodel_PaymentInfo_ppi" property="ppi" z="wwVUg3fyDp8kXeh9vM9vt/c47bk="/>
+        </table:table>
+    </page:list>
+</div>

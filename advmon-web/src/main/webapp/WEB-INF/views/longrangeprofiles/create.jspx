@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_advmon_webapp_datamodel_profiles_LongRangeProfile" modelAttribute="longRangeProfile" path="/longrangeprofiles" render="${empty dependencies}" z="mD8nO0z8xSVuiL/bPPYxKEN+FMs=">
+        <field:input field="name" id="c_com_advmon_webapp_datamodel_profiles_LongRangeProfile_name" z="wEiVxWfEdW+zCWcjnvbK+iZYkj8="/>
+        <field:input field="description" id="c_com_advmon_webapp_datamodel_profiles_LongRangeProfile_description" z="8WZiFj1kgK5RxABq1qZTeLSXS2o="/>
+        <field:select field="mktProfiles" id="c_com_advmon_webapp_datamodel_profiles_LongRangeProfile_mktProfiles" itemValue="id" items="${targetmarketprofiles}" multiple="true" path="/targetmarketprofiles" z="pjTna9vOmUa+3D848Tym9kb+2qc="/>
+        <field:select field="endUserList" id="c_com_advmon_webapp_datamodel_profiles_LongRangeProfile_endUserList" itemValue="id" items="${endusers}" multiple="true" path="/endusers" z="xfLigxMZE6flhF44MSw29Bc0D7Y="/>
+        <field:select field="mktProfileHistory" id="c_com_advmon_webapp_datamodel_profiles_LongRangeProfile_mktProfileHistory" itemValue="id" items="${marketprofilehistorys}" multiple="true" path="/marketprofilehistorys" z="so6rSgvZLVJcQX5JYH8GyAtgG7U="/>
+        <field:select field="ranges" id="c_com_advmon_webapp_datamodel_profiles_LongRangeProfile_ranges" itemValue="id" items="${longranges}" multiple="true" path="/longranges" z="dPkQgiyjDSRXKzBzC319ySZOdBc="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_advmon_webapp_datamodel_profiles_LongRangeProfile" render="${not empty dependencies}" z="BsMHdAg+p5yis6AXP8R9cs/FPz8="/>
+</div>

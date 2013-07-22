@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_advmon_webapp_datamodel_profiles_OccupationProfile" object="${occupationprofile}" path="/occupationprofiles" z="hooFamtKeURnic2PvhdzA4na3qk=">
+        <field:display field="occupations" id="s_com_advmon_webapp_datamodel_profiles_OccupationProfile_occupations" object="${occupationprofile}" z="yAbx/w5Xa3rungx+YMAUcHmm2N0="/>
+        <field:display field="endUserList" id="s_com_advmon_webapp_datamodel_profiles_OccupationProfile_endUserList" object="${occupationprofile}" z="+bdoDSXj42lmNW2Wyp+PQaDYU6c="/>
+        <field:display field="mktProfileHistory" id="s_com_advmon_webapp_datamodel_profiles_OccupationProfile_mktProfileHistory" object="${occupationprofile}" z="PzKzIAte2UWzUWO8MOCoZOZNAhw="/>
+        <field:display field="name" id="s_com_advmon_webapp_datamodel_profiles_OccupationProfile_name" object="${occupationprofile}" z="K6fuuB/t5M30iSY9bL9NwMwrRjU="/>
+        <field:display field="description" id="s_com_advmon_webapp_datamodel_profiles_OccupationProfile_description" object="${occupationprofile}" z="qQiGpNpdIvqqT1eApR3Vtff09ZU="/>
+        <field:display field="mktProfiles" id="s_com_advmon_webapp_datamodel_profiles_OccupationProfile_mktProfiles" object="${occupationprofile}" z="cNmsjelpmFyoA9TNdP6RSUKFp8A="/>
+    </page:show>
+</div>

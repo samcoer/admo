@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_advmon_webapp_datamodel_profiles_TagProfile" modelAttribute="tagProfile" path="/tagprofiles" versionField="Version" z="jzcwBoZSJ+dwrVpj0Ycdu8pkxEM=">
+        <field:simple field="tags" id="c_com_advmon_webapp_datamodel_profiles_TagProfile_tags" messageCode="entity_reference_not_managed" messageCodeAttribute="Tag" z="QdLZQzVhzdIKWC7cO4X9ODl48DQ="/>
+        <field:select field="endUserList" id="c_com_advmon_webapp_datamodel_profiles_TagProfile_endUserList" itemValue="id" items="${endusers}" multiple="true" path="/endusers" z="x3gkIhsL70DOYM3fw8EqB4mdwQU="/>
+        <field:select field="mktProfileHistory" id="c_com_advmon_webapp_datamodel_profiles_TagProfile_mktProfileHistory" itemValue="id" items="${marketprofilehistorys}" multiple="true" path="/marketprofilehistorys" z="uBF7tRMwMDadBRlT0Hz4oQ96Jdo="/>
+        <field:input field="name" id="c_com_advmon_webapp_datamodel_profiles_TagProfile_name" z="jpllOguCOv9tBDZVnNsPpCpdiZY="/>
+        <field:input field="description" id="c_com_advmon_webapp_datamodel_profiles_TagProfile_description" z="Fk2q8sjmgkP3Xw6bQiWDumYQwnk="/>
+        <field:select field="mktProfiles" id="c_com_advmon_webapp_datamodel_profiles_TagProfile_mktProfiles" itemValue="id" items="${targetmarketprofiles}" multiple="true" path="/targetmarketprofiles" z="24EI2h1wv/BCXJBAXmx9uhZmpcI="/>
+    </form:update>
+</div>

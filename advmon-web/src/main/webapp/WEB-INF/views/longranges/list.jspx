@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_advmon_webapp_datamodel_etc_LongRange" items="${longranges}" z="o4qaxBiUVz1dCtJ1TMLHM62t+aM=">
+        <table:table data="${longranges}" id="l_com_advmon_webapp_datamodel_etc_LongRange" path="/longranges" z="VZIDRNE5G4f4/macp2Dbs5OptHU=">
+            <table:column id="c_com_advmon_webapp_datamodel_etc_LongRange_min" property="min" z="L1Kq+Z2+04/UaGBllw3oQ8rnRdE="/>
+            <table:column id="c_com_advmon_webapp_datamodel_etc_LongRange_max" property="max" z="u9snYg3bgmgYWtT+s8ssvVqbSE4="/>
+            <table:column id="c_com_advmon_webapp_datamodel_etc_LongRange_name" property="name" z="ZflVxEf1yYltwTXkNJuPIrbRIaY="/>
+            <table:column id="c_com_advmon_webapp_datamodel_etc_LongRange_description" property="description" z="9/bL3W+S+31Cv8nVAXkCv3it/Zg="/>
+            <table:column id="c_com_advmon_webapp_datamodel_etc_LongRange_profiles" property="profiles" z="SkYRLQv+s0FLYJGTG5wUTeaLgyA="/>
+        </table:table>
+    </page:list>
+</div>

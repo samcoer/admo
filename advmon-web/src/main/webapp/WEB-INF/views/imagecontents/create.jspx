@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_advmon_webapp_datamodel_content_ImageContent" modelAttribute="imageContent" path="/imagecontents" render="${empty dependencies}" z="XZbiMqtY+uMmy+Y0nNTNm27X9iI=">
+        <field:select field="advertisement" id="c_com_advmon_webapp_datamodel_content_ImageContent_advertisement" itemValue="id" items="${advertisements}" path="/advertisements" z="RCI1to2eXpExNbmJvrNF5cDR0io="/>
+        <field:input field="text" id="c_com_advmon_webapp_datamodel_content_ImageContent_text" z="/6ql7v71f35BRrxUEzm9KM5iSos="/>
+        <field:input field="imageURL" id="c_com_advmon_webapp_datamodel_content_ImageContent_imageURL" z="50Nre5KxQR4E9fIYq9IKxtJsarM="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_advmon_webapp_datamodel_content_ImageContent" render="${not empty dependencies}" z="u0pBYvrZTbgvfW+9BuictrTUruo="/>
+</div>

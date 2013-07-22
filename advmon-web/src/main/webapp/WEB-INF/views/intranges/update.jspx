@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_advmon_webapp_datamodel_etc_IntRange" modelAttribute="intRange" path="/intranges" versionField="Version" z="5CwML7ASY2oLJ37I9eLUxL3ElH4=">
+        <field:input field="min" id="c_com_advmon_webapp_datamodel_etc_IntRange_min" validationMessageCode="field_invalid_integer" z="n8HpsUmCFtwmirXRcQg2ovGn8EQ="/>
+        <field:input field="max" id="c_com_advmon_webapp_datamodel_etc_IntRange_max" validationMessageCode="field_invalid_integer" z="31tkE6bQ+IDgJ0/ke/5SJrxHAdc="/>
+        <field:input field="name" id="c_com_advmon_webapp_datamodel_etc_IntRange_name" z="iN+E+PgpSDbzGnC/i/Rc1sjRTr4="/>
+        <field:input field="description" id="c_com_advmon_webapp_datamodel_etc_IntRange_description" z="KK5NGDdu31dQsECMsodYtGR/YpE="/>
+        <field:select field="profiles" id="c_com_advmon_webapp_datamodel_etc_IntRange_profiles" itemValue="id" items="${intrangeprofiles}" multiple="true" path="/intrangeprofiles" z="D01fqYHXOQ8yMVBQqsicUbxo9nM="/>
+    </form:update>
+</div>

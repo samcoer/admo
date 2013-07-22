@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_advmon_webapp_datamodel_profiles_TimingProfile" modelAttribute="timingProfile" path="/timingprofiles" versionField="Version" z="NBxgmdzfHD4/rH5jQGrzwoj8t+w=">
+        <field:select field="endUserList" id="c_com_advmon_webapp_datamodel_profiles_TimingProfile_endUserList" itemValue="id" items="${endusers}" multiple="true" path="/endusers" z="QyuVuDv2LH4qI9XANURhTRFcAvk="/>
+        <field:select field="mktProfileHistory" id="c_com_advmon_webapp_datamodel_profiles_TimingProfile_mktProfileHistory" itemValue="id" items="${marketprofilehistorys}" multiple="true" path="/marketprofilehistorys" z="AoALNPq/GAGaD7yyYuMkywR34cI="/>
+        <field:input field="name" id="c_com_advmon_webapp_datamodel_profiles_TimingProfile_name" z="xZwTPr63Et2SKFa/IYuf4mn0dgs="/>
+        <field:input field="description" id="c_com_advmon_webapp_datamodel_profiles_TimingProfile_description" z="Ti0sjGjHt3myWNiaJKQM7w/Zcxw="/>
+        <field:select field="mktProfiles" id="c_com_advmon_webapp_datamodel_profiles_TimingProfile_mktProfiles" itemValue="id" items="${targetmarketprofiles}" multiple="true" path="/targetmarketprofiles" z="Ciuoe4yOurcVm5UCYTKnbJVWfro="/>
+        <field:select field="ranges" id="c_com_advmon_webapp_datamodel_profiles_TimingProfile_ranges" itemValue="id" items="${longranges}" multiple="true" path="/longranges" z="38PPXA+mLW69in61kgPBuRUeaC0="/>
+    </form:update>
+</div>

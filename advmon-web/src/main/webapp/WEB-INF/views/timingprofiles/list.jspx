@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_advmon_webapp_datamodel_profiles_TimingProfile" items="${timingprofiles}" z="wMUE59eALRnJ/6GwE6oxPOC53es=">
+        <table:table data="${timingprofiles}" id="l_com_advmon_webapp_datamodel_profiles_TimingProfile" path="/timingprofiles" z="D8MZwY0WEjV8gZ5Tvbrvsk1wTTw=">
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_TimingProfile_endUserList" property="endUserList" z="VM7+832XXmjy3ACkrILdyZWj/a8="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_TimingProfile_mktProfileHistory" property="mktProfileHistory" z="DjMm7QuIE5fHw+sgKjB6pjBgqNw="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_TimingProfile_name" property="name" z="z/A+pCPP7IWwt5KjR3545uq7d+o="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_TimingProfile_description" property="description" z="ekSLifodZDPK6bY98j44+YbSsCM="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_TimingProfile_mktProfiles" property="mktProfiles" z="b9HZ9fEGI1jL5g6/1u4dMtV1fpU="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_TimingProfile_ranges" property="ranges" z="6U9DkBi1cNetfnNBld1qejbv+1E="/>
+        </table:table>
+    </page:list>
+</div>

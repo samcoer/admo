@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_advmon_webapp_datamodel_PaymentInfo" object="${paymentinfo}" path="/paymentinfoes" z="q84MOlwODv8+90xPsQ/Wszlm9y0=">
+        <field:display field="advertisement" id="s_com_advmon_webapp_datamodel_PaymentInfo_advertisement" object="${paymentinfo}" z="1so37H5gKj5n6J8WBLLO2nEwvwo="/>
+        <field:display field="budget" id="s_com_advmon_webapp_datamodel_PaymentInfo_budget" object="${paymentinfo}" z="uALPBG3ckd0rX2xpjPSYA3M/is8="/>
+        <field:display field="isDifferential" id="s_com_advmon_webapp_datamodel_PaymentInfo_isDifferential" object="${paymentinfo}" z="SzJj/l2j5cx8dr0kQMNGBGwdML0="/>
+        <field:display field="ppi" id="s_com_advmon_webapp_datamodel_PaymentInfo_ppi" object="${paymentinfo}" z="8u7k7Bcy6FKrQL3HS8H/VxlsvcI="/>
+    </page:show>
+</div>

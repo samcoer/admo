@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_advmon_webapp_datamodel_MarketProfileHistory" object="${marketprofilehistory}" path="/marketprofilehistorys" z="uOD7xEW8HeO8eRA0/3Lx3ONXkpU=">
+        <field:display field="historicalProfile" id="s_com_advmon_webapp_datamodel_MarketProfileHistory_historicalProfile" object="${marketprofilehistory}" z="HRAz3xaoONMy1KQZTEwe2fEaGgs="/>
+        <field:display field="endUser" id="s_com_advmon_webapp_datamodel_MarketProfileHistory_endUser" object="${marketprofilehistory}" z="H1i5jBpd28gdOSbmZOwCu05igrc="/>
+        <field:display field="startTime" id="s_com_advmon_webapp_datamodel_MarketProfileHistory_startTime" object="${marketprofilehistory}" z="IBWzkxx29SXLownVoumXdJ9WyeY="/>
+        <field:display field="endTime" id="s_com_advmon_webapp_datamodel_MarketProfileHistory_endTime" object="${marketprofilehistory}" z="Ff7t2GBZaQs5NyhL+U9jVTF8RTI="/>
+    </page:show>
+</div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_advmon_webapp_datamodel_profiles_InterestProfile" object="${interestprofile}" path="/interestprofiles" z="boBc5+k2aGcdyH+QCAOVi6hWOnM=">
+        <field:display field="interests" id="s_com_advmon_webapp_datamodel_profiles_InterestProfile_interests" object="${interestprofile}" z="mQ5yR8ai1vOXuXTDSdjA964TDeo="/>
+        <field:display field="endUserList" id="s_com_advmon_webapp_datamodel_profiles_InterestProfile_endUserList" object="${interestprofile}" z="gX9Im0agrvVHoH5363AJAQ526Eg="/>
+        <field:display field="mktProfileHistory" id="s_com_advmon_webapp_datamodel_profiles_InterestProfile_mktProfileHistory" object="${interestprofile}" z="B8656IU1b1vU6LF6jwV4GXjckYQ="/>
+        <field:display field="name" id="s_com_advmon_webapp_datamodel_profiles_InterestProfile_name" object="${interestprofile}" z="KDXBtJcXgOCUDH5FScXotXkvcOY="/>
+        <field:display field="description" id="s_com_advmon_webapp_datamodel_profiles_InterestProfile_description" object="${interestprofile}" z="e2RiW6UZj/nrREUjUUAVM9fZZIY="/>
+        <field:display field="mktProfiles" id="s_com_advmon_webapp_datamodel_profiles_InterestProfile_mktProfiles" object="${interestprofile}" z="3tNjkrUCiz2xOv/ktDeDTgvPviY="/>
+    </page:show>
+</div>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_advmon_webapp_datamodel_Advertisement" object="${advertisement}" path="/advertisements" z="JgBnv723/Q+uqflbz2W9RJ0qmIc=">
+        <field:display field="content" id="s_com_advmon_webapp_datamodel_Advertisement_content" object="${advertisement}" z="zjI8lGlbs8L+q6/RwfLYVTYQfdQ="/>
+        <field:display field="advertiser" id="s_com_advmon_webapp_datamodel_Advertisement_advertiser" object="${advertisement}" z="JlPGlX12HZSXwyF8M9qVwCzSAi8="/>
+        <field:display field="targets" id="s_com_advmon_webapp_datamodel_Advertisement_targets" object="${advertisement}" z="0SLEf9WpPzdEgmyYpCswR5703Oo="/>
+        <field:display field="paymentInfo" id="s_com_advmon_webapp_datamodel_Advertisement_paymentInfo" object="${advertisement}" z="irTTNz6owG9RJXHLksZUo9o+wak="/>
+        <field:display field="categories" id="s_com_advmon_webapp_datamodel_Advertisement_categories" object="${advertisement}" z="miRhLjoVBwVkdSULWUklD8++7p8="/>
+        <field:display field="recurrence" id="s_com_advmon_webapp_datamodel_Advertisement_recurrence" object="${advertisement}" z="8ILoXn+/Lnx4KVwGna2cBCo69gw="/>
+        <field:display field="name" id="s_com_advmon_webapp_datamodel_Advertisement_name" object="${advertisement}" z="oQJzf5IMq52tf24WXPxFnLGJ8eY="/>
+        <field:display field="description" id="s_com_advmon_webapp_datamodel_Advertisement_description" object="${advertisement}" z="jfv2HOdB2TJOEHHEvDqt/iMLRgI="/>
+        <field:display field="targetMarket" id="s_com_advmon_webapp_datamodel_Advertisement_targetMarket" object="${advertisement}" z="D1iO4L8olOPjlC5XmgwWBfuBYZA="/>
+    </page:show>
+</div>

@@ -1,0 +1,70 @@
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-07-12 13:46:33
+project --topLevelPackage com.advmon.webapp --projectName advmon-web --java 7 --packaging JAR
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-07-12 13:46:59
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-07-12 13:47:07
+persistence setup --provider HIBERNATE --database MYSQL 
+entity jpa --class ~.datamodel.Advertiser --testAutomatically 
+entity jpa --class ~.datamodel.Advertisement --testAutomatically 
+entity jpa --class ~.datamodel.AdCategory --testAutomatically 
+entity jpa --class ~.datamodel.EndUser --testAutomatically 
+entity jpa --class ~.datamodel.PaymentInfo --testAutomatically 
+entity jpa --class ~.datamodel.ProfileHistory --testAutomatically 
+entity jpa --class ~.datamodel.Tag --testAutomatically 
+entity jpa --class ~.datamodel.TargetMarket --testAutomatically 
+entity jpa --class ~.datamodel.TargetMarketProfile --testAutomatically 
+entity jpa --class ~.datamodel.content.AdContent --testAutomatically 
+entity jpa --class ~.datamodel.content.AudioContent --testAutomatically 
+entity jpa --class ~.datamodel.content.ImageContent --testAutomatically 
+entity jpa --class ~.datamodel.content.VideoContent --testAutomatically 
+entity jpa --class ~.datamodel.content.TextContent --testAutomatically 
+entity jpa --class ~.datamodel.profiles.Profile --testAutomatically 
+entity jpa --class ~.datamodel.profiles.AgeProfile --testAutomatically 
+entity jpa --class ~.datamodel.profiles.EducationProfile --testAutomatically 
+entity jpa --class ~.datamodel.profiles.GenderProfile --testAutomatically 
+entity jpa --class ~.datamodel.profiles.IncomeProfile --testAutomatically 
+entity jpa --class ~.datamodel.profiles.InterestProfile --testAutomatically 
+entity jpa --class ~.datamodel.profiles.LanguageProfile --testAutomatically 
+entity jpa --class ~.datamodel.profiles.LocationProfile --testAutomatically 
+entity jpa --class ~.datamodel.profiles.OccupationProfile --testAutomatically 
+entity jpa --class ~.datamodel.profiles.TagProfile --testAutomatically 
+entity jpa --class ~.datamodel.profiles.TimingProfile --testAutomatically 
+perform tests
+perform tests
+web mvc setup
+web mvc all --package ~.ui.controller
+web mvc all --package ~.ui.controller
+web mvc all --package ~.ui.controller
+hint
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-07-18 20:48:46
+web mvc all --package ~.ui.controller
+web mvc all --package ~.ui.controller
+hint
+hint
+entity jpa --class ~.datamodel.etc.IntRange --testAutomatically 
+entity jpa --class ~.datamodel.etc.LongRange --testAutomatically 
+entity jpa --class ~.datamodel.etc.LongRange --testAutomatically 
+web mvc all --package ~.ui.controller
+web mvc all --package ~.ui.controller
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-07-19 15:02:01
+web mvc all --package ~.ui.controller
+web mvc all --package ~.ui.controller
+hint
+web mvc all --package ~.ui.controller
+web mvc all --package ~.ui.controller
+help
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-07-19 23:43:25
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-07-19 23:43:46
+hint
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-07-21 20:07:57
+web mvc all --package ~.ui.controller
+hint
+hint
+hint
+web mvc all --package ~.ui.controller
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-07-21 21:45:19
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-07-21 21:45:37
+hint
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-07-21 23:55:53
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-07-22 10:39:19
+hint
+perform package

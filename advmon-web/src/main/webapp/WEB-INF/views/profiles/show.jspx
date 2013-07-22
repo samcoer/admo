@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_advmon_webapp_datamodel_profiles_Profile" object="${profile}" path="/profiles" z="yWMhbCY4I9Etq18SYAJLm6Qyr40=">
+        <field:display field="endUserList" id="s_com_advmon_webapp_datamodel_profiles_Profile_endUserList" object="${profile}" z="RzBz4alMnpYT/Fj/5uWC6oCDyKU="/>
+        <field:display field="mktProfileHistory" id="s_com_advmon_webapp_datamodel_profiles_Profile_mktProfileHistory" object="${profile}" z="as3hQbKmyyNLZpo7QBzdhON7Iyc="/>
+        <field:display field="name" id="s_com_advmon_webapp_datamodel_profiles_Profile_name" object="${profile}" z="bDKWOXLzQttUv20Kw0RDxnkNstA="/>
+        <field:display field="description" id="s_com_advmon_webapp_datamodel_profiles_Profile_description" object="${profile}" z="DTBR0PPaAED+0ntHu/0FbEqOMuU="/>
+        <field:display field="mktProfiles" id="s_com_advmon_webapp_datamodel_profiles_Profile_mktProfiles" object="${profile}" z="98igX0vWgNTLoKqO3aRXyfYdxLk="/>
+    </page:show>
+</div>

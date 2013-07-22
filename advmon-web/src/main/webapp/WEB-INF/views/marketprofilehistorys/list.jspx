@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_advmon_webapp_datamodel_MarketProfileHistory" items="${marketprofilehistorys}" z="61++n+pvEdqTOolSwr9eSkN7VFE=">
+        <table:table data="${marketprofilehistorys}" id="l_com_advmon_webapp_datamodel_MarketProfileHistory" path="/marketprofilehistorys" z="a5FHQ9P1juZo4KPWVmqSyTO0zao=">
+            <table:column id="c_com_advmon_webapp_datamodel_MarketProfileHistory_historicalProfile" property="historicalProfile" z="YxyEm100nB0W1/RtKVqfXy9MyxI="/>
+            <table:column id="c_com_advmon_webapp_datamodel_MarketProfileHistory_endUser" property="endUser" z="D3amAiuL3Yeyj3cglY5owHTLkfY="/>
+            <table:column id="c_com_advmon_webapp_datamodel_MarketProfileHistory_startTime" property="startTime" z="ViqjhebU0Tj6qQoX9BtwwzJU1zw="/>
+            <table:column id="c_com_advmon_webapp_datamodel_MarketProfileHistory_endTime" property="endTime" z="QZ2dO1paVVwq7NIJiiKSzIMDsyA="/>
+        </table:table>
+    </page:list>
+</div>

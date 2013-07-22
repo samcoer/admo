@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_advmon_webapp_datamodel_profiles_LocationProfile" object="${locationprofile}" path="/locationprofiles" z="D8oMjlqBoOn/3dwML0dVWeEqBoc=">
+        <field:display field="country" id="s_com_advmon_webapp_datamodel_profiles_LocationProfile_country" object="${locationprofile}" z="nE1Pn8FjxzIcf1SHbXGmTzbC2X8="/>
+        <field:display field="state" id="s_com_advmon_webapp_datamodel_profiles_LocationProfile_state" object="${locationprofile}" z="VGK/mY/qR7j6wmk+8jkRcAjG0V0="/>
+        <field:display field="city" id="s_com_advmon_webapp_datamodel_profiles_LocationProfile_city" object="${locationprofile}" z="A2XBEcNhjZCuX9NK9EkuB+M/L2U="/>
+        <field:display field="zip" id="s_com_advmon_webapp_datamodel_profiles_LocationProfile_zip" object="${locationprofile}" z="gdJrUeSK4a5eft009ZZ22BH0bQs="/>
+        <field:display field="gps" id="s_com_advmon_webapp_datamodel_profiles_LocationProfile_gps" object="${locationprofile}" z="NlJkPm+IAutHlOoP2OV6Jz05diA="/>
+        <field:display field="endUserList" id="s_com_advmon_webapp_datamodel_profiles_LocationProfile_endUserList" object="${locationprofile}" z="12Hv+DtzlQPZNi3yB47IemD0bTU="/>
+        <field:display field="mktProfileHistory" id="s_com_advmon_webapp_datamodel_profiles_LocationProfile_mktProfileHistory" object="${locationprofile}" z="o4xQmaaNFS8dpVOH887OYf/JvWY="/>
+        <field:display field="name" id="s_com_advmon_webapp_datamodel_profiles_LocationProfile_name" object="${locationprofile}" z="7C+2JF1okCp8E6HqeyhhBk3Mgpo="/>
+        <field:display field="description" id="s_com_advmon_webapp_datamodel_profiles_LocationProfile_description" object="${locationprofile}" z="wmavANQ4mh1yXniB2dAI1m0nDMs="/>
+        <field:display field="mktProfiles" id="s_com_advmon_webapp_datamodel_profiles_LocationProfile_mktProfiles" object="${locationprofile}" z="315NWcluktHAtfTnYmdx82cAWIc="/>
+    </page:show>
+</div>

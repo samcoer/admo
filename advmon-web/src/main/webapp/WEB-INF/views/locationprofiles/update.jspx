@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_advmon_webapp_datamodel_profiles_LocationProfile" modelAttribute="locationProfile" path="/locationprofiles" versionField="Version" z="Zqw2thDme2pkMaXovOCMEzfnjQQ=">
+        <field:input field="country" id="c_com_advmon_webapp_datamodel_profiles_LocationProfile_country" z="Z8MY/GTFfjAeHynaiv5JTMvqtVk="/>
+        <field:input field="state" id="c_com_advmon_webapp_datamodel_profiles_LocationProfile_state" z="4uifRB3Qhqrr/DObsQuUaYwKfPE="/>
+        <field:input field="city" id="c_com_advmon_webapp_datamodel_profiles_LocationProfile_city" z="CXB2Vx9l543f8/H1QzWcO2xt2Xc="/>
+        <field:input field="zip" id="c_com_advmon_webapp_datamodel_profiles_LocationProfile_zip" z="pRCc23y3TAYe3f2X+wVKrooS0tk="/>
+        <field:input field="gps" id="c_com_advmon_webapp_datamodel_profiles_LocationProfile_gps" z="3dA6Jykv74j4H06ChjbG6crEiAE="/>
+        <field:select field="endUserList" id="c_com_advmon_webapp_datamodel_profiles_LocationProfile_endUserList" itemValue="id" items="${endusers}" multiple="true" path="/endusers" z="n6pfOARjd78xoHDrXFTGRxNTWsk="/>
+        <field:select field="mktProfileHistory" id="c_com_advmon_webapp_datamodel_profiles_LocationProfile_mktProfileHistory" itemValue="id" items="${marketprofilehistorys}" multiple="true" path="/marketprofilehistorys" z="7a04vGr8DnJifFEI3U11/JR29gg="/>
+        <field:input field="name" id="c_com_advmon_webapp_datamodel_profiles_LocationProfile_name" z="htbsjz85ZFcAHxUeSTTDXQ1WJ2c="/>
+        <field:input field="description" id="c_com_advmon_webapp_datamodel_profiles_LocationProfile_description" z="FKkO2o8QyFaU8uUFxTfU/nepmGQ="/>
+        <field:select field="mktProfiles" id="c_com_advmon_webapp_datamodel_profiles_LocationProfile_mktProfiles" itemValue="id" items="${targetmarketprofiles}" multiple="true" path="/targetmarketprofiles" z="cWQ9uAryjKnWTvsGCmUg0d3etsQ="/>
+    </form:update>
+</div>

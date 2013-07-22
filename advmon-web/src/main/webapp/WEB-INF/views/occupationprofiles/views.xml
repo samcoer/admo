@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="occupationprofiles/list">
+        <put-attribute name="body" value="/WEB-INF/views/occupationprofiles/list.jspx"/>
+    </definition>
+<definition extends="default" name="occupationprofiles/show">
+        <put-attribute name="body" value="/WEB-INF/views/occupationprofiles/show.jspx"/>
+    </definition>
+<definition extends="default" name="occupationprofiles/create">
+        <put-attribute name="body" value="/WEB-INF/views/occupationprofiles/create.jspx"/>
+    </definition>
+<definition extends="default" name="occupationprofiles/update">
+        <put-attribute name="body" value="/WEB-INF/views/occupationprofiles/update.jspx"/>
+    </definition>
+</tiles-definitions>

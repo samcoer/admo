@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_advmon_webapp_datamodel_profiles_EducationProfile" modelAttribute="educationProfile" path="/educationprofiles" render="${empty dependencies}" z="qTZWR7Lj7zPalNvOlvSska/nXho=">
+        <field:input field="educationList" id="c_com_advmon_webapp_datamodel_profiles_EducationProfile_educationList" z="5ophMeDOEgpXqQndceKcBW6IFB8="/>
+        <field:select field="endUserList" id="c_com_advmon_webapp_datamodel_profiles_EducationProfile_endUserList" itemValue="id" items="${endusers}" multiple="true" path="/endusers" z="TGr4TFwuLgf1/5eB6EbkFySofsQ="/>
+        <field:select field="mktProfileHistory" id="c_com_advmon_webapp_datamodel_profiles_EducationProfile_mktProfileHistory" itemValue="id" items="${marketprofilehistorys}" multiple="true" path="/marketprofilehistorys" z="T+HDjhgKx+DAJZyO0I/kR6JtnQc="/>
+        <field:input field="name" id="c_com_advmon_webapp_datamodel_profiles_EducationProfile_name" z="NoEBXnab9vnV19PyrkK1EsB09cE="/>
+        <field:input field="description" id="c_com_advmon_webapp_datamodel_profiles_EducationProfile_description" z="Fq3U3Ug9q7Ol51c7/Tk+qdOdUuI="/>
+        <field:select field="mktProfiles" id="c_com_advmon_webapp_datamodel_profiles_EducationProfile_mktProfiles" itemValue="id" items="${targetmarketprofiles}" multiple="true" path="/targetmarketprofiles" z="PcEmNF85Ns1OEW6bFaFS9uuEUu0="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_advmon_webapp_datamodel_profiles_EducationProfile" render="${not empty dependencies}" z="EebXsmmrsjgYG66lxUpMz+nNcXs="/>
+</div>

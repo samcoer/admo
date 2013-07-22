@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_advmon_webapp_datamodel_Advertisement" items="${advertisements}" z="hcRY9Ne8lMSvW+S5eB+2xHDRcKs=">
+        <table:table data="${advertisements}" id="l_com_advmon_webapp_datamodel_Advertisement" path="/advertisements" z="m37UH2XDmyWjTTXvsaYJ7MgDLiA=">
+            <table:column id="c_com_advmon_webapp_datamodel_Advertisement_content" property="content" z="uUVC2BX3UP7AarWx3urz3lNQlAA="/>
+            <table:column id="c_com_advmon_webapp_datamodel_Advertisement_advertiser" property="advertiser" z="FBGXWzqBL38rxab7z+A2k/ydYWU="/>
+            <table:column id="c_com_advmon_webapp_datamodel_Advertisement_targets" property="targets" z="+hcexizN9MZS1x0m4VVlcxEwI4k="/>
+            <table:column id="c_com_advmon_webapp_datamodel_Advertisement_name" property="name" z="wvLDibQ3/3fpUqYLPEnEeBedHSk="/>
+            <table:column id="c_com_advmon_webapp_datamodel_Advertisement_description" property="description" z="QOaWs5GI0xNFm5KAuJP6n+3LwsE="/>
+            <table:column id="c_com_advmon_webapp_datamodel_Advertisement_targetMarket" property="targetMarket" z="fi+cfW9GUI1RGkw3RgjbUvUzYag="/>
+        </table:table>
+    </page:list>
+</div>

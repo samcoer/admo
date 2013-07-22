@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_advmon_webapp_datamodel_Advertiser" modelAttribute="advertiser" path="/advertisers" render="${empty dependencies}" z="ED6Ysz5cnGU2biETQfmKi+tFRb8=">
+        <field:input field="name" id="c_com_advmon_webapp_datamodel_Advertiser_name" z="q1p9ayanwBelZchaoRgWbNpl7dQ="/>
+        <field:input field="mailId" id="c_com_advmon_webapp_datamodel_Advertiser_mailId" z="BqnrA4clAnSK0XIOUoYYiho758U="/>
+        <field:simple field="adList" id="c_com_advmon_webapp_datamodel_Advertiser_adList" messageCode="entity_reference_not_managed" messageCodeAttribute="Advertisement" z="WancbwmcSHiypLh8LPk8FVXXXvY="/>
+        <field:input field="password" id="c_com_advmon_webapp_datamodel_Advertiser_password" z="Fe1Qwk41qAKU6Kc8GEjwpP6tigg="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_advmon_webapp_datamodel_Advertiser" render="${not empty dependencies}" z="u0/r0ml8SfdINyoklHWNtigcQ1E="/>
+</div>

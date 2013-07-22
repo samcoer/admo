@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_advmon_webapp_datamodel_profiles_AgeProfile" items="${ageprofiles}" z="ju5het8ld4LjlCE3JnMJrrK0c6M=">
+        <table:table data="${ageprofiles}" id="l_com_advmon_webapp_datamodel_profiles_AgeProfile" path="/ageprofiles" z="24+B1IR1WRpkzgh36s/uBtQkY/c=">
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_AgeProfile_endUserList" property="endUserList" z="cPsHcZfGri1xw0TrHt5uQpjLtn8="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_AgeProfile_mktProfileHistory" property="mktProfileHistory" z="27r5UqYEn9XH+5iTd1GcBt8ph0A="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_AgeProfile_name" property="name" z="OJtiKr39fO1jQM4DEk+mEfXOgJ0="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_AgeProfile_description" property="description" z="nzcTTz+mZKgh7u8GEm+zOWIau7M="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_AgeProfile_mktProfiles" property="mktProfiles" z="shsn+Z0UxhQ7STpQ1h0q57HBEoA="/>
+            <table:column id="c_com_advmon_webapp_datamodel_profiles_AgeProfile_ranges" property="ranges" z="RnEJanyDwezPUyLTQ1d+ofkFUCQ="/>
+        </table:table>
+    </page:list>
+</div>

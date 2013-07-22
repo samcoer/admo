@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_advmon_webapp_datamodel_TargetMarketProfile" object="${targetmarketprofile}" path="/targetmarketprofiles" z="FM06jFdFXLoRIJbvKiph9GRMCIQ=">
+        <field:display field="segmentName" id="s_com_advmon_webapp_datamodel_TargetMarketProfile_segmentName" object="${targetmarketprofile}" z="eX4Mc1Ypfo2M+3LyXerBlb261D4="/>
+        <field:display field="advertisement" id="s_com_advmon_webapp_datamodel_TargetMarketProfile_advertisement" object="${targetmarketprofile}" z="sesNBHEWpoUO1o/+lNd6MqVxGRA="/>
+        <field:display field="profiles" id="s_com_advmon_webapp_datamodel_TargetMarketProfile_profiles" object="${targetmarketprofile}" z="QO1EettoG1qEO8Qyyh/oeJsnqUA="/>
+        <field:display field="description" id="s_com_advmon_webapp_datamodel_TargetMarketProfile_description" object="${targetmarketprofile}" z="RFMd1+SYTAveC1eV0IYsoMI/XJU="/>
+    </page:show>
+</div>

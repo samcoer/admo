@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_advmon_webapp_datamodel_profiles_AgeProfile" object="${ageprofile}" path="/ageprofiles" z="wASRIvdWyviF8Csp3tGVd+6KOs4=">
+        <field:display field="endUserList" id="s_com_advmon_webapp_datamodel_profiles_AgeProfile_endUserList" object="${ageprofile}" z="lZt2s+VtOpHchQXedfI8xESuNhc="/>
+        <field:display field="mktProfileHistory" id="s_com_advmon_webapp_datamodel_profiles_AgeProfile_mktProfileHistory" object="${ageprofile}" z="3eoWU0zSJyuPJwf2+lghZ42RWYI="/>
+        <field:display field="name" id="s_com_advmon_webapp_datamodel_profiles_AgeProfile_name" object="${ageprofile}" z="Gq5Fm6InCjwR2yUkTh+BSIMGhrs="/>
+        <field:display field="description" id="s_com_advmon_webapp_datamodel_profiles_AgeProfile_description" object="${ageprofile}" z="LoRsQCUYSOzKommGkWhr2j4R06I="/>
+        <field:display field="mktProfiles" id="s_com_advmon_webapp_datamodel_profiles_AgeProfile_mktProfiles" object="${ageprofile}" z="/blELFykZUSQ5n5lJIbYaUVA1lg="/>
+        <field:display field="ranges" id="s_com_advmon_webapp_datamodel_profiles_AgeProfile_ranges" object="${ageprofile}" z="jysxe2nt+Rt8WXmqkQ0YC1Yt9XY="/>
+    </page:show>
+</div>
