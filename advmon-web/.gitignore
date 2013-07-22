@@ -1,0 +1,4 @@
+#Ignore maven build directory
+target/
+#Ignore bak files from comparision tools
+*.bak
