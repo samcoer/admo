@@ -1,8 +1,0 @@
-#Ignore maven build directory
-target/
-#Ignore eclipse project specific files
-.settings/
-.project
-.classpath
-#Ignore bak files from comparision tools
-*.bak
